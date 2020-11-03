@@ -26,6 +26,14 @@ h3 {
   font-family: 'Dancing Script', cursive;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
 .top-container {
   background-color: #eaf6f6;
   margin: 0;
