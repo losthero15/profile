@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+html {
+  margin: 0;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 20 auto 0 auto;
+  font-family: 'Great Vibes', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Dancing Script', cursive;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.middle-container {
+  margin: 0;
+}
+
+.bottom-container {
+  margin-top: 25px;
+  padding: 50px;
+  background-color: #66BFBF;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: relative;
+  top: 25px;
+  left: 225px;
+}
+
+.mountain {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.self-photo {
+  height: 200px;
+  padding-top: 25px;
+}
+
+.computer {
+  float: left;
+  height: 100px;
+  padding-right: 25px;
+}
+
+.chillies {
+  float: right;
+  height: 100px;
+  padding-left: 25px;
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.copyright {
+  margin-top: 50px;
+  color: #EAF6F6;
+}
+
+#definition {
+  font-weight: bold;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+hr {
+  border: 0;
+  margin: 0;
+  height: 50px;
+}
+
+hr:before {
+  position: relative;
+  bottom: 10px;
+  content: ".....";
+  letter-spacing: 4px;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  color: #eaf6f6;
+  /* Use letter-spacing to increase space between dots*/
+}
+
+.BUTTON_BAU {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+  background-image: -moz-linear-gradient(top, #11999E, #11999E);
+  background-image: -ms-linear-gradient(top, #11999E, #11999E);
+  background-image: -o-linear-gradient(top, #11999E, #11999E);
+  background-image: -webkit-gradient(to bottom, #11999E, #11999E);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 16px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
